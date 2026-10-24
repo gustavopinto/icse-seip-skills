@@ -1,0 +1,503 @@
+id,functional_domain,delegation_intent,user_interaction,risk_impact,side_effect_scope,matrix_cell
+S001,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S002,Code Quality,executive,interactive,low,local,Over-declared
+S003,Observability/Debug,assistive,interactive,medium,service,Aligned-Assistive
+S004,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S005,Data/ML,assistive,interactive,low,local,Aligned-Assistive
+S006,Documentation,executive,interactive,low,local,Over-declared
+S007,Communication/Collaboration,executive,autonomous,medium,service,Aligned-Executive
+S008,Business Domain,executive,interactive,medium,service,Over-declared
+S009,Infrastructure/Deploy,executive,interactive,low,local,Over-declared
+S010,Data/ML,assistive,reactive,none,service,Under-declared
+S011,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S012,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S013,Infrastructure/Deploy,executive,reactive,medium,org,Aligned-Executive
+S014,Infrastructure/Deploy,executive,interactive,low,local,Over-declared
+S015,Observability/Debug,assistive,reactive,none,local,Under-declared
+S016,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S017,Meta/Agent,executive,interactive,low,local,Over-declared
+S018,Observability/Debug,assistive,reactive,none,local,Under-declared
+S019,Code Quality,executive,interactive,low,local,Over-declared
+S020,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S021,Code Quality,executive,reactive,medium,org,Aligned-Executive
+S022,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S023,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S024,Business Domain,executive,reactive,low,local,Aligned-Executive
+S025,Communication/Collaboration,executive,reactive,low,local,Aligned-Executive
+S026,Business Domain,executive,reactive,low,local,Aligned-Executive
+S027,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S028,Code Quality,executive,reactive,medium,service,Aligned-Executive
+S029,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S030,Version Control,executive,interactive,low,local,Over-declared
+S031,Documentation,executive,reactive,low,local,Aligned-Executive
+S032,Version Control,assistive,reactive,none,local,Under-declared
+S033,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S034,Infrastructure/Deploy,assistive,reactive,none,local,Aligned-Assistive
+S035,Observability/Debug,assistive,interactive,none,local,Aligned-Assistive
+S036,Code Quality,executive,interactive,medium,org,Over-declared
+S037,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S038,Communication/Collaboration,assistive,autonomous,none,local,Aligned-Assistive
+S039,Observability/Debug,executive,reactive,low,local,Aligned-Executive
+S040,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S041,Data/ML,assistive,interactive,low,local,Aligned-Assistive
+S042,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S043,Code Quality,assistive,reactive,low,local,Aligned-Assistive
+S044,Documentation,executive,interactive,low,local,Over-declared
+S045,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S046,Code Quality,executive,reactive,medium,org,Aligned-Executive
+S047,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S048,Meta/Agent,executive,interactive,low,local,Over-declared
+S049,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S050,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S051,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S052,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S053,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S054,Observability/Debug,assistive,interactive,none,local,Aligned-Assistive
+S055,Infrastructure/Deploy,assistive,reactive,none,local,Under-declared
+S056,Data/ML,executive,reactive,low,local,Aligned-Executive
+S057,Documentation,executive,reactive,medium,org,Aligned-Executive
+S058,Business Domain,executive,interactive,medium,service,Over-declared
+S059,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S060,Infrastructure/Deploy,assistive,reactive,none,local,Under-declared
+S061,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S062,Code Quality,executive,reactive,medium,org,Aligned-Executive
+S063,Business Domain,executive,reactive,medium,service,Aligned-Executive
+S064,Data/ML,executive,interactive,low,local,Over-declared
+S065,Infrastructure/Deploy,assistive,reactive,low,local,Aligned-Assistive
+S066,Code Quality,assistive,reactive,low,local,Aligned-Assistive
+S067,Code Quality,executive,reactive,medium,service,Aligned-Executive
+S068,Data/ML,executive,reactive,medium,org,Aligned-Executive
+S069,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S070,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S071,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S072,Data/ML,executive,interactive,medium,org,Over-declared
+S073,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S074,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S075,Infrastructure/Deploy,executive,reactive,high,org,Aligned-Executive
+S076,Data/ML,executive,interactive,medium,org,Over-declared
+S077,Data/ML,executive,interactive,low,local,Over-declared
+S078,Data/ML,executive,interactive,medium,org,Over-declared
+S079,Observability/Debug,executive,interactive,low,local,Over-declared
+S080,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S081,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S082,Code Quality,executive,reactive,medium,org,Aligned-Executive
+S083,Documentation,executive,reactive,low,local,Aligned-Executive
+S084,Data/ML,assistive,interactive,low,local,Under-declared
+S085,Business Domain,executive,interactive,medium,service,Over-declared
+S086,Process/Planning,assistive,interactive,low,local,Under-declared
+S087,Observability/Debug,executive,reactive,high,org,Aligned-Executive
+S088,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S089,Data/ML,executive,reactive,low,local,Aligned-Executive
+S090,Code Quality,executive,reactive,medium,org,Aligned-Executive
+S091,Data/ML,executive,interactive,medium,service,Over-declared
+S092,Infrastructure/Deploy,assistive,interactive,none,local,Aligned-Assistive
+S093,Version Control,assistive,reactive,none,local,Aligned-Assistive
+S094,Data/ML,assistive,interactive,low,local,Under-declared
+S095,Infrastructure/Deploy,executive,reactive,high,org,Aligned-Executive
+S096,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S097,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S098,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S099,Observability/Debug,executive,interactive,low,local,Over-declared
+S100,Code Quality,assistive,reactive,low,local,Aligned-Assistive
+S101,Code Quality,assistive,reactive,none,local,Under-declared
+S102,Data/ML,executive,interactive,medium,service,Over-declared
+S103,Communication/Collaboration,assistive,interactive,low,local,Under-declared
+S104,Communication/Collaboration,executive,autonomous,medium,service,Aligned-Executive
+S105,Data/ML,executive,interactive,low,local,Over-declared
+S106,Business Domain,assistive,interactive,low,local,Aligned-Assistive
+S107,Code Quality,executive,interactive,low,local,Over-declared
+S108,Business Domain,assistive,reactive,low,local,Aligned-Assistive
+S109,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S110,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S111,Version Control,executive,interactive,medium,org,Over-declared
+S112,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S113,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S114,Data/ML,assistive,reactive,low,local,Aligned-Assistive
+S115,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S116,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S117,Observability/Debug,assistive,interactive,low,local,Aligned-Assistive
+S118,Code Quality,executive,interactive,medium,org,Over-declared
+S119,Process/Planning,executive,interactive,medium,service,Over-declared
+S120,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S121,Observability/Debug,assistive,reactive,none,local,Under-declared
+S122,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S123,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S124,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S125,Data/ML,assistive,interactive,low,local,Under-declared
+S126,Business Domain,assistive,reactive,medium,service,Aligned-Assistive
+S127,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S128,Business Domain,executive,reactive,high,org,Aligned-Executive
+S129,Business Domain,executive,reactive,medium,service,Aligned-Executive
+S130,Documentation,assistive,interactive,low,local,Under-declared
+S131,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S132,Code Quality,assistive,reactive,none,local,Under-declared
+S133,Data/ML,executive,reactive,medium,service,Aligned-Executive
+S134,Infrastructure/Deploy,executive,reactive,low,local,Aligned-Executive
+S135,Code Quality,assistive,reactive,low,local,Under-declared
+S136,Code Quality,executive,reactive,low,local,Aligned-Executive
+S137,Process/Planning,executive,interactive,medium,service,Over-declared
+S138,Business Domain,assistive,reactive,low,service,Aligned-Assistive
+S139,Documentation,executive,interactive,low,local,Over-declared
+S140,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S141,Documentation,assistive,interactive,low,local,Aligned-Assistive
+S142,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S143,Data/ML,assistive,interactive,low,local,Aligned-Assistive
+S144,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S145,Documentation,executive,reactive,low,local,Aligned-Executive
+S146,Communication/Collaboration,assistive,interactive,low,local,Under-declared
+S147,Documentation,executive,reactive,low,local,Aligned-Executive
+S148,Documentation,executive,interactive,low,local,Over-declared
+S149,Code Quality,executive,reactive,low,local,Aligned-Executive
+S150,Communication/Collaboration,assistive,interactive,medium,service,Aligned-Assistive
+S151,Data/ML,assistive,interactive,medium,service,Under-declared
+S152,Infrastructure/Deploy,executive,interactive,medium,org,Over-declared
+S153,Code Quality,executive,reactive,low,local,Aligned-Executive
+S154,Code Quality,assistive,interactive,none,local,Aligned-Assistive
+S155,Process/Planning,executive,interactive,low,local,Over-declared
+S156,Business Domain,assistive,interactive,low,local,Under-declared
+S157,Code Quality,executive,interactive,medium,service,Over-declared
+S158,Data/ML,executive,interactive,medium,service,Over-declared
+S159,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S160,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S161,Process/Planning,assistive,reactive,low,local,Under-declared
+S162,Data/ML,assistive,interactive,low,service,Aligned-Assistive
+S163,Observability/Debug,executive,interactive,medium,org,Over-declared
+S164,Data/ML,executive,interactive,high,org,Over-declared
+S165,Version Control,assistive,interactive,low,local,Under-declared
+S166,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S167,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S168,Documentation,executive,interactive,low,local,Over-declared
+S169,Documentation,executive,interactive,low,local,Over-declared
+S170,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S171,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S172,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S173,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S174,Data/ML,assistive,reactive,none,service,Aligned-Assistive
+S175,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S176,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S177,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S178,Documentation,executive,interactive,low,local,Over-declared
+S179,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S180,Version Control,executive,reactive,medium,service,Aligned-Executive
+S181,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S182,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S183,Business Domain,executive,interactive,medium,org,Over-declared
+S184,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S185,Business Domain,assistive,interactive,low,local,Aligned-Assistive
+S186,Communication/Collaboration,assistive,interactive,low,local,Aligned-Assistive
+S187,Data/ML,executive,interactive,medium,service,Over-declared
+S188,Communication/Collaboration,executive,reactive,medium,service,Aligned-Executive
+S189,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S190,Process/Planning,executive,reactive,medium,service,Aligned-Executive
+S191,Data/ML,executive,reactive,low,local,Aligned-Executive
+S192,Business Domain,assistive,reactive,low,local,Aligned-Assistive
+S193,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S194,Observability/Debug,executive,reactive,medium,org,Aligned-Executive
+S195,Business Domain,assistive,autonomous,low,local,Aligned-Assistive
+S196,Code Quality,assistive,interactive,none,local,Under-declared
+S197,Meta/Agent,executive,reactive,low,local,Aligned-Executive
+S198,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S199,Code Quality,executive,reactive,medium,service,Aligned-Executive
+S200,Documentation,executive,interactive,medium,org,Over-declared
+S201,Data/ML,assistive,interactive,none,local,Under-declared
+S202,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S203,Documentation,assistive,reactive,none,local,Aligned-Assistive
+S204,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S205,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S206,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S207,Process/Planning,assistive,interactive,none,local,Aligned-Assistive
+S208,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S209,Documentation,executive,interactive,low,local,Over-declared
+S210,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S211,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S212,Business Domain,executive,reactive,low,local,Aligned-Executive
+S213,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S214,Documentation,assistive,interactive,low,local,Aligned-Assistive
+S215,Observability/Debug,executive,reactive,medium,service,Aligned-Executive
+S216,Observability/Debug,assistive,interactive,none,local,Under-declared
+S217,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S218,Data/ML,executive,interactive,medium,service,Over-declared
+S219,Business Domain,executive,interactive,low,local,Over-declared
+S220,Observability/Debug,assistive,interactive,low,local,Aligned-Assistive
+S221,Data/ML,executive,reactive,low,local,Aligned-Executive
+S222,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S223,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S224,Business Domain,executive,interactive,medium,service,Over-declared
+S225,Data/ML,assistive,reactive,medium,service,Under-declared
+S226,Business Domain,assistive,interactive,low,service,Aligned-Assistive
+S227,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S228,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S229,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S230,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S231,Business Domain,executive,interactive,low,local,Over-declared
+S232,Infrastructure/Deploy,executive,interactive,low,local,Over-declared
+S233,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S234,Data/ML,assistive,reactive,low,local,Aligned-Assistive
+S235,Infrastructure/Deploy,assistive,reactive,none,local,Aligned-Assistive
+S236,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S237,Documentation,executive,interactive,low,local,Over-declared
+S238,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S239,Business Domain,executive,interactive,low,local,Over-declared
+S240,Documentation,executive,interactive,low,local,Over-declared
+S241,Process/Planning,executive,reactive,medium,service,Aligned-Executive
+S242,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S243,Communication/Collaboration,executive,interactive,low,org,Over-declared
+S244,Business Domain,executive,interactive,medium,service,Over-declared
+S245,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S246,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S247,Communication/Collaboration,executive,reactive,medium,service,Aligned-Executive
+S248,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S249,Data/ML,executive,interactive,high,org,Over-declared
+S250,Documentation,executive,interactive,low,local,Over-declared
+S251,Documentation,executive,reactive,low,local,Aligned-Executive
+S252,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S253,Version Control,executive,interactive,medium,org,Over-declared
+S254,Documentation,executive,interactive,low,local,Over-declared
+S255,Business Domain,executive,interactive,medium,service,Over-declared
+S256,Data/ML,executive,interactive,low,local,Over-declared
+S257,Infrastructure/Deploy,executive,reactive,medium,org,Aligned-Executive
+S258,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S259,Process/Planning,executive,reactive,low,local,Aligned-Executive
+S260,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S261,Meta/Agent,assistive,interactive,low,local,Aligned-Assistive
+S262,Observability/Debug,assistive,interactive,none,local,Under-declared
+S263,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S264,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S265,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S266,Data/ML,executive,interactive,medium,service,Over-declared
+S267,Code Quality,executive,reactive,low,local,Aligned-Executive
+S268,Data/ML,assistive,reactive,none,service,Aligned-Assistive
+S269,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S270,Data/ML,executive,interactive,high,org,Over-declared
+S271,Observability/Debug,executive,interactive,medium,service,Over-declared
+S272,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S273,Code Quality,assistive,interactive,none,local,Aligned-Assistive
+S274,Documentation,executive,interactive,low,local,Over-declared
+S275,Infrastructure/Deploy,executive,interactive,high,org,Over-declared
+S276,Business Domain,assistive,interactive,none,local,Under-declared
+S277,Documentation,executive,interactive,medium,org,Over-declared
+S278,Communication/Collaboration,executive,reactive,low,local,Aligned-Executive
+S279,Meta/Agent,executive,reactive,high,org,Aligned-Executive
+S280,Code Quality,assistive,interactive,low,local,Aligned-Assistive
+S281,Code Quality,executive,interactive,low,local,Over-declared
+S282,Business Domain,executive,interactive,medium,external,Over-declared
+S283,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S284,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S285,Data/ML,executive,reactive,low,local,Aligned-Executive
+S286,Business Domain,executive,interactive,medium,service,Over-declared
+S287,Infrastructure/Deploy,executive,reactive,low,local,Aligned-Executive
+S288,Infrastructure/Deploy,executive,interactive,low,local,Over-declared
+S289,Infrastructure/Deploy,executive,interactive,high,org,Over-declared
+S290,Version Control,executive,interactive,medium,org,Over-declared
+S291,Business Domain,assistive,interactive,none,local,Under-declared
+S292,Business Domain,executive,reactive,medium,service,Aligned-Executive
+S293,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S294,Communication/Collaboration,assistive,interactive,low,local,Under-declared
+S295,Observability/Debug,assistive,reactive,low,local,Aligned-Assistive
+S296,Business Domain,executive,reactive,low,local,Aligned-Executive
+S297,Business Domain,assistive,reactive,low,local,Under-declared
+S298,Documentation,executive,reactive,low,local,Aligned-Executive
+S299,Business Domain,executive,reactive,medium,org,Aligned-Executive
+S300,Code Quality,executive,reactive,low,local,Aligned-Executive
+S301,Business Domain,executive,interactive,medium,service,Over-declared
+S302,Business Domain,assistive,interactive,none,local,Under-declared
+S303,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S304,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S305,Documentation,assistive,reactive,none,local,Aligned-Assistive
+S306,Data/ML,assistive,interactive,none,local,Under-declared
+S307,Observability/Debug,executive,reactive,medium,service,Aligned-Executive
+S308,Process/Planning,assistive,reactive,low,local,Aligned-Assistive
+S309,Business Domain,executive,reactive,low,local,Aligned-Executive
+S310,Documentation,executive,reactive,low,local,Aligned-Executive
+S311,Version Control,executive,interactive,medium,org,Over-declared
+S312,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S313,Infrastructure/Deploy,assistive,reactive,none,local,Aligned-Assistive
+S314,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S315,Process/Planning,executive,reactive,low,local,Aligned-Executive
+S316,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S317,Data/ML,assistive,reactive,medium,service,Aligned-Assistive
+S318,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S319,Communication/Collaboration,executive,reactive,low,local,Aligned-Executive
+S320,Documentation,executive,reactive,low,local,Aligned-Executive
+S321,Process/Planning,assistive,interactive,none,local,Aligned-Assistive
+S322,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S323,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S324,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S325,Infrastructure/Deploy,executive,interactive,high,org,Over-declared
+S326,Data/ML,executive,interactive,medium,service,Over-declared
+S327,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S328,Meta/Agent,executive,reactive,low,local,Aligned-Executive
+S329,Infrastructure/Deploy,executive,interactive,medium,service,Over-declared
+S330,Data/ML,assistive,interactive,low,local,Aligned-Assistive
+S331,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S332,Version Control,executive,reactive,medium,org,Aligned-Executive
+S333,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S334,Documentation,executive,reactive,low,local,Aligned-Executive
+S335,Documentation,executive,reactive,low,local,Aligned-Executive
+S336,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S337,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S338,Meta/Agent,executive,reactive,low,local,Aligned-Executive
+S339,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S340,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S341,Communication/Collaboration,assistive,reactive,low,service,Aligned-Assistive
+S342,Observability/Debug,executive,reactive,medium,service,Aligned-Executive
+S343,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S344,Code Quality,executive,reactive,low,local,Aligned-Executive
+S345,Meta/Agent,executive,interactive,low,local,Over-declared
+S346,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S347,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S348,Documentation,executive,interactive,medium,org,Over-declared
+S349,Business Domain,assistive,interactive,low,local,Under-declared
+S350,Code Quality,assistive,interactive,none,local,Aligned-Assistive
+S351,Infrastructure/Deploy,executive,interactive,high,org,Over-declared
+S352,Process/Planning,executive,interactive,medium,service,Over-declared
+S353,Observability/Debug,assistive,interactive,none,local,Under-declared
+S354,Infrastructure/Deploy,executive,interactive,medium,org,Over-declared
+S355,Observability/Debug,assistive,reactive,none,local,Under-declared
+S356,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S357,Documentation,executive,reactive,medium,service,Aligned-Executive
+S358,Infrastructure/Deploy,assistive,reactive,none,local,Under-declared
+S359,Data/ML,executive,autonomous,medium,org,Aligned-Executive
+S360,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S361,Process/Planning,executive,interactive,medium,service,Over-declared
+S362,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S363,Business Domain,executive,reactive,low,local,Aligned-Executive
+S364,Communication/Collaboration,executive,interactive,low,service,Over-declared
+S365,Version Control,assistive,interactive,low,local,Under-declared
+S366,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S367,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S368,Documentation,executive,reactive,medium,org,Aligned-Executive
+S369,Communication/Collaboration,assistive,interactive,low,local,Aligned-Assistive
+S370,Data/ML,executive,interactive,medium,service,Over-declared
+S371,Infrastructure/Deploy,executive,reactive,low,local,Aligned-Executive
+S372,Infrastructure/Deploy,executive,interactive,medium,service,Over-declared
+S373,Infrastructure/Deploy,executive,reactive,high,org,Aligned-Executive
+S374,Process/Planning,assistive,interactive,none,local,Aligned-Assistive
+S375,Infrastructure/Deploy,executive,reactive,medium,org,Aligned-Executive
+S376,Infrastructure/Deploy,executive,reactive,low,local,Aligned-Executive
+S377,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S378,Data/ML,executive,reactive,low,local,Aligned-Executive
+S379,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S380,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S381,Data/ML,assistive,reactive,low,local,Aligned-Assistive
+S382,Documentation,assistive,interactive,low,local,Aligned-Assistive
+S383,Code Quality,assistive,interactive,none,local,Under-declared
+S384,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S385,Process/Planning,assistive,interactive,none,local,Aligned-Assistive
+S386,Process/Planning,executive,reactive,medium,service,Aligned-Executive
+S387,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S388,Documentation,executive,interactive,low,local,Over-declared
+S389,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S390,Process/Planning,executive,interactive,medium,service,Over-declared
+S391,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S392,Code Quality,assistive,reactive,none,local,Under-declared
+S393,Version Control,executive,reactive,medium,org,Aligned-Executive
+S394,Observability/Debug,assistive,interactive,low,local,Aligned-Assistive
+S395,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S396,Business Domain,executive,interactive,low,local,Over-declared
+S397,Meta/Agent,executive,interactive,low,local,Over-declared
+S398,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S399,Communication/Collaboration,executive,interactive,low,local,Over-declared
+S400,Infrastructure/Deploy,assistive,interactive,high,org,Aligned-Assistive
+S401,Communication/Collaboration,executive,autonomous,medium,service,Aligned-Executive
+S402,Code Quality,assistive,interactive,none,local,Aligned-Assistive
+S403,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S404,Communication/Collaboration,assistive,autonomous,low,local,Aligned-Assistive
+S405,Infrastructure/Deploy,executive,interactive,medium,org,Over-declared
+S406,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S407,Communication/Collaboration,assistive,interactive,none,local,Aligned-Assistive
+S408,Data/ML,assistive,reactive,low,local,Aligned-Assistive
+S409,Observability/Debug,executive,interactive,low,local,Over-declared
+S410,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S411,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S412,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S413,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S414,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S415,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S416,Version Control,executive,interactive,medium,org,Over-declared
+S417,Documentation,executive,reactive,low,local,Aligned-Executive
+S418,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S419,Infrastructure/Deploy,executive,interactive,high,org,Over-declared
+S420,Observability/Debug,assistive,reactive,none,local,Under-declared
+S421,Data/ML,executive,reactive,medium,service,Aligned-Executive
+S422,Code Quality,executive,interactive,low,local,Over-declared
+S423,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S424,Meta/Agent,assistive,reactive,none,local,Aligned-Assistive
+S425,Meta/Agent,executive,interactive,low,local,Over-declared
+S426,Infrastructure/Deploy,executive,reactive,medium,org,Aligned-Executive
+S427,Observability/Debug,executive,interactive,medium,service,Over-declared
+S428,Data/ML,executive,interactive,medium,org,Over-declared
+S429,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S430,Communication/Collaboration,executive,reactive,low,local,Aligned-Executive
+S431,Process/Planning,executive,interactive,medium,service,Over-declared
+S432,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S433,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S434,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S435,Documentation,executive,reactive,low,local,Aligned-Executive
+S436,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S437,Process/Planning,assistive,interactive,none,local,Aligned-Assistive
+S438,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S439,Version Control,assistive,interactive,none,local,Under-declared
+S440,Business Domain,assistive,interactive,none,local,Aligned-Assistive
+S441,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S442,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S443,Data/ML,executive,interactive,medium,service,Over-declared
+S444,Documentation,executive,interactive,medium,service,Over-declared
+S445,Observability/Debug,assistive,reactive,medium,service,Aligned-Assistive
+S446,Version Control,executive,interactive,medium,org,Over-declared
+S447,Data/ML,executive,reactive,medium,service,Aligned-Executive
+S448,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S449,Meta/Agent,assistive,interactive,none,local,Aligned-Assistive
+S450,Infrastructure/Deploy,executive,reactive,medium,service,Aligned-Executive
+S451,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S452,Version Control,executive,reactive,low,local,Aligned-Executive
+S453,Business Domain,executive,reactive,low,local,Aligned-Executive
+S454,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S455,Communication/Collaboration,executive,reactive,low,local,Aligned-Executive
+S456,Communication/Collaboration,executive,reactive,medium,service,Aligned-Executive
+S457,Meta/Agent,executive,interactive,low,local,Over-declared
+S458,Data/ML,executive,interactive,medium,org,Over-declared
+S459,Documentation,executive,interactive,low,local,Over-declared
+S460,Business Domain,assistive,reactive,low,local,Under-declared
+S461,Business Domain,executive,interactive,medium,org,Over-declared
+S462,Documentation,assistive,interactive,low,local,Under-declared
+S463,Process/Planning,assistive,reactive,none,local,Aligned-Assistive
+S464,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S465,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S466,Communication/Collaboration,executive,reactive,medium,service,Aligned-Executive
+S467,Business Domain,assistive,reactive,low,local,Aligned-Assistive
+S468,Communication/Collaboration,executive,interactive,medium,service,Over-declared
+S469,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S470,Infrastructure/Deploy,assistive,interactive,none,local,Aligned-Assistive
+S471,Documentation,executive,reactive,low,local,Aligned-Executive
+S472,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S473,Data/ML,assistive,reactive,low,service,Under-declared
+S474,Communication/Collaboration,assistive,reactive,low,local,Aligned-Assistive
+S475,Version Control,executive,reactive,high,org,Aligned-Executive
+S476,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S477,Documentation,executive,reactive,low,local,Aligned-Executive
+S478,Code Quality,assistive,reactive,none,local,Under-declared
+S479,Code Quality,assistive,reactive,none,local,Aligned-Assistive
+S480,Code Quality,assistive,interactive,none,local,Under-declared
+S481,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S482,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S483,Communication/Collaboration,assistive,reactive,none,local,Aligned-Assistive
+S484,Data/ML,executive,reactive,medium,service,Aligned-Executive
+S485,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S486,Data/ML,assistive,reactive,none,local,Aligned-Assistive
+S487,Data/ML,executive,interactive,medium,org,Over-declared
+S488,Business Domain,assistive,reactive,none,local,Aligned-Assistive
+S489,Observability/Debug,assistive,reactive,none,local,Aligned-Assistive
+S490,Communication/Collaboration,assistive,reactive,none,local,Under-declared
+S491,Data/ML,assistive,reactive,none,local,Under-declared
+S492,Observability/Debug,executive,interactive,medium,service,Over-declared
+S493,Communication/Collaboration,assistive,interactive,low,local,Aligned-Assistive
+S494,Business Domain,executive,autonomous,medium,service,Aligned-Executive
+S495,Business Domain,executive,interactive,medium,service,Over-declared
+S496,Code Quality,assistive,reactive,low,local,Under-declared
+S497,Data/ML,assistive,interactive,none,local,Aligned-Assistive
+S498,Infrastructure/Deploy,assistive,interactive,none,local,Under-declared
+S499,Business Domain,executive,interactive,low,local,Over-declared
+S500,Code Quality,executive,reactive,low,local,Aligned-Executive
+S501,Process/Planning,assistive,interactive,low,local,Aligned-Assistive
+S502,Data/ML,assistive,reactive,high,org,Aligned-Assistive
