@@ -1,0 +1,503 @@
+id,has_references,has_shell_commands,has_sql_block,has_python_block,has_ask_user_tool,has_always_apply,has_argument_hint,solicits_input_structurally,word_count,entry_via_mdc,functional_domain,input_artifact,output_artifact,delegation_intent,user_interaction_llm,user_interaction,risk_impact,side_effect_scope,matrix_cell
+S001,False,False,False,False,False,False,False,False,1101,False,Communication/Collaboration,presentation,feedback,assistive,reactive,reactive,none,local,Aligned-Assistive
+S002,False,True,False,False,False,False,False,True,2262,False,Code Quality,code,code,assistive,interactive,interactive,medium,service,Under-declared
+S003,True,False,False,False,False,False,False,True,720,False,Infrastructure/Deploy,none,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S004,False,False,False,False,False,False,False,False,288,False,Data/ML,code,JSON,assistive,reactive,reactive,none,local,Aligned-Assistive
+S005,False,False,False,False,False,False,False,True,971,False,Data/ML,SQL,HTML report,executive,interactive,interactive,medium,org,Over-declared
+S006,False,False,False,False,False,False,False,True,523,False,Documentation,code,Markdown playbook,executive,interactive,interactive,medium,service,Over-declared
+S007,True,False,False,False,False,False,False,False,152,False,Communication/Collaboration,none,summary,assistive,autonomous,autonomous,none,local,Aligned-Assistive
+S008,False,True,False,False,False,False,False,True,1527,False,Process/Planning,conversation,JSON,assistive,interactive,interactive,low,local,Under-declared
+S009,False,True,False,False,False,False,False,True,3695,False,Infrastructure/Deploy,none,YAML,executive,interactive,interactive,medium,local,Over-declared
+S010,False,True,False,True,False,False,False,True,1069,False,Data/ML,none,analysis,assistive,interactive,interactive,none,local,Under-declared
+S011,True,True,False,False,True,False,False,True,1884,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,low,service,Under-declared
+S012,False,True,False,True,False,False,False,True,2309,False,Documentation,none,pptx,executive,interactive,interactive,low,local,Over-declared
+S013,False,False,False,False,False,False,False,False,734,False,Infrastructure/Deploy,none,PR,executive,reactive,reactive,medium,org,Aligned-Executive
+S014,True,False,False,False,False,False,False,True,703,False,Infrastructure/Deploy,none,Bash backup script,executive,interactive,interactive,medium,local,Over-declared
+S015,True,True,False,False,False,False,False,False,740,False,Observability/Debug,log,report,assistive,reactive,reactive,medium,service,Under-declared
+S016,False,False,True,False,False,False,False,False,993,False,Data/ML,none,SQL,assistive,interactive,interactive,low,local,Aligned-Assistive
+S017,False,False,False,False,False,False,False,True,457,False,Infrastructure/Deploy,none,none,executive,interactive,interactive,medium,service,Over-declared
+S018,False,True,False,False,False,False,False,False,1438,False,Observability/Debug,code,report,assistive,reactive,reactive,low,local,Under-declared
+S019,True,False,False,False,False,False,False,True,1303,False,Process/Planning,code,code,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S020,False,False,False,False,False,False,False,False,256,False,Process/Planning,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S021,True,True,False,False,False,False,False,True,2550,False,Code Quality,ticket,PR,executive,interactive,interactive,medium,service,Over-declared
+S022,False,False,False,False,False,False,False,True,5019,False,Communication/Collaboration,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S023,False,False,False,False,False,False,False,False,407,False,Process/Planning,none,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S024,True,True,False,False,False,False,False,True,754,False,Business Domain,image,PNG,executive,interactive,interactive,low,local,Over-declared
+S025,True,False,False,False,False,False,False,False,293,False,Documentation,none,pptx,executive,autonomous,reactive,low,local,Aligned-Executive
+S026,False,False,False,False,False,False,False,False,311,False,Documentation,none,code,executive,autonomous,reactive,medium,local,Aligned-Executive
+S027,False,False,False,False,False,False,False,False,3264,False,Data/ML,none,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S028,True,False,False,False,False,False,False,False,393,False,Code Quality,code,report,executive,reactive,reactive,medium,service,Aligned-Executive
+S029,False,False,False,False,False,False,False,False,328,False,Data/ML,none,SQL,assistive,reactive,reactive,none,local,Aligned-Assistive
+S030,False,True,False,False,False,False,False,True,1373,False,Version Control,code,none,assistive,interactive,interactive,low,local,Under-declared
+S031,True,False,False,False,False,False,False,False,555,False,Documentation,conversation,XML,executive,autonomous,interactive,medium,local,Over-declared
+S032,False,True,False,False,False,False,False,False,1297,False,Version Control,code,analysis,assistive,reactive,reactive,none,local,Under-declared
+S033,True,False,False,False,False,False,False,True,1586,False,Communication/Collaboration,none,pptx,executive,interactive,interactive,low,local,Over-declared
+S034,False,False,False,False,False,False,False,True,2106,False,Infrastructure/Deploy,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S035,False,False,False,False,False,False,False,True,338,False,Observability/Debug,none,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S036,False,False,False,False,True,False,False,True,2144,False,Code Quality,ticket,code,executive,interactive,interactive,medium,service,Over-declared
+S037,False,False,False,False,False,False,False,False,388,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S038,False,False,False,False,False,False,False,True,426,False,Process/Planning,conversation,summary,assistive,interactive,interactive,low,local,Aligned-Assistive
+S039,True,True,False,False,False,False,False,True,899,False,Observability/Debug,none,analysis,assistive,interactive,interactive,none,local,Under-declared
+S040,False,False,False,False,False,False,False,False,296,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S041,False,False,True,False,False,False,False,True,2510,False,Data/ML,conversation,documentation,assistive,interactive,interactive,none,local,Aligned-Assistive
+S042,True,False,False,False,False,False,False,False,1110,False,Meta/Agent,conversation,code,assistive,interactive,interactive,none,local,Aligned-Assistive
+S043,True,False,False,False,False,False,False,False,1168,False,Code Quality,code,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S044,False,False,False,False,False,False,False,True,501,False,Documentation,document,Markdown,assistive,interactive,interactive,low,local,Aligned-Assistive
+S045,True,False,False,False,False,False,False,True,450,False,Data/ML,none,SQL,assistive,interactive,interactive,none,local,Aligned-Assistive
+S046,False,False,False,False,False,False,False,False,337,False,Code Quality,PR,code,executive,reactive,reactive,medium,service,Aligned-Executive
+S047,False,False,False,False,False,False,False,False,756,False,Data/ML,none,SQL,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S048,False,False,False,False,False,False,False,True,1917,False,Process/Planning,conversation,none,assistive,interactive,interactive,none,local,Aligned-Assistive
+S049,True,False,False,False,False,False,False,False,266,False,Code Quality,code,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S050,False,False,False,False,False,False,False,False,495,False,Meta/Agent,none,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S051,False,False,False,False,False,False,False,True,2215,False,Data/ML,data,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S052,False,False,False,False,False,False,False,False,450,False,Business Domain,none,commands,executive,reactive,reactive,medium,service,Aligned-Executive
+S053,False,False,False,False,False,False,False,False,333,False,Process/Planning,conversation,specification,assistive,interactive,interactive,low,local,Aligned-Assistive
+S054,False,False,False,False,False,False,False,False,292,False,Observability/Debug,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S055,False,True,False,False,False,False,False,False,423,False,Infrastructure/Deploy,none,analysis,assistive,reactive,reactive,none,local,Under-declared
+S056,False,False,True,False,False,False,False,False,1920,False,Data/ML,SQL,report,executive,reactive,reactive,medium,service,Aligned-Executive
+S057,False,False,False,False,False,False,False,False,368,False,Documentation,"Slack threads, Jira tickets, user input",document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S058,True,True,False,False,False,False,False,True,970,False,Meta/Agent,none,JSON response,assistive,interactive,interactive,none,local,Under-declared
+S059,False,False,False,False,False,False,False,False,369,False,Communication/Collaboration,conversation,document,assistive,interactive,interactive,none,local,Aligned-Assistive
+S060,False,True,False,False,False,False,False,True,262,False,Infrastructure/Deploy,none,analysis,assistive,interactive,interactive,none,local,Under-declared
+S061,True,False,False,False,True,False,False,True,1240,False,Communication/Collaboration,conversation,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S062,True,True,False,False,False,False,False,True,2461,False,Code Quality,code,code,executive,interactive,interactive,high,org,Over-declared
+S063,False,True,False,True,False,False,False,True,1184,False,Business Domain,none,Slack alert,executive,interactive,interactive,medium,service,Over-declared
+S064,False,False,False,False,False,False,False,True,1342,False,Data/ML,none,local file changes,assistive,interactive,interactive,low,local,Aligned-Assistive
+S065,False,False,False,False,False,False,False,False,585,False,Infrastructure/Deploy,HTML template,Apps Script code,executive,reactive,reactive,medium,org,Aligned-Executive
+S066,True,False,False,False,False,False,False,False,696,False,Code Quality,code,code,assistive,reactive,reactive,low,local,Aligned-Assistive
+S067,False,False,False,False,False,False,False,True,299,False,Code Quality,none,action,executive,interactive,interactive,medium,service,Over-declared
+S068,False,True,False,False,False,False,False,True,1876,False,Business Domain,image or text,code,executive,interactive,interactive,medium,org,Over-declared
+S069,True,False,True,False,False,False,False,False,2517,False,Data/ML,SQL,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S070,False,False,False,False,False,False,False,False,281,False,Data/ML,none,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S071,False,False,False,False,False,False,False,False,540,False,Observability/Debug,"MR, environment",analysis,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S072,False,True,True,False,False,False,False,True,2990,False,Data/ML,SQL,HTML dashboard,executive,interactive,interactive,medium,service,Over-declared
+S073,False,False,True,False,False,False,False,True,1230,False,Data/ML,SQL,summary,assistive,interactive,interactive,low,local,Aligned-Assistive
+S074,False,False,False,False,False,False,False,False,452,False,Communication/Collaboration,conversation,message draft,assistive,interactive,interactive,none,local,Aligned-Assistive
+S075,True,True,False,False,False,False,False,False,799,False,Infrastructure/Deploy,none,none,executive,autonomous,reactive,high,org,Aligned-Executive
+S076,False,False,False,False,False,False,False,True,258,False,Data/ML,conversation,SQL,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S077,False,True,False,True,False,False,False,True,2780,False,Infrastructure/Deploy,YAML,"notebooks, YAML resources, configuration guidance",executive,interactive,interactive,medium,org,Over-declared
+S078,True,False,False,False,False,False,False,True,804,False,Data/ML,conversation,markdown,executive,interactive,interactive,medium,service,Over-declared
+S079,False,False,False,False,False,False,False,True,510,False,Observability/Debug,conversation,JSON,executive,interactive,interactive,medium,local,Over-declared
+S080,False,False,False,False,False,False,False,True,1205,False,Communication/Collaboration,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S081,False,False,False,False,False,False,False,False,214,False,Communication/Collaboration,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S082,True,False,False,False,False,False,False,True,672,False,Code Quality,code,PR,executive,interactive,interactive,medium,org,Over-declared
+S083,False,False,False,False,False,False,False,False,337,False,Documentation,none,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S084,True,True,False,True,True,False,False,True,2539,False,Data/ML,"PDF, CSV, Excel files, tables","HTML report, analysis",assistive,interactive,interactive,low,local,Under-declared
+S085,False,False,False,False,False,False,False,True,355,False,Infrastructure/Deploy,none,none,assistive,interactive,interactive,none,local,Aligned-Assistive
+S086,True,True,False,False,True,False,False,True,2192,False,Process/Planning,specification documents,tasks,assistive,interactive,interactive,low,local,Under-declared
+S087,False,False,False,False,False,False,False,False,363,False,Observability/Debug,none,data,assistive,interactive,interactive,none,local,Aligned-Assistive
+S088,True,False,False,False,False,False,False,True,682,False,Data/ML,SQL,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S089,True,False,False,False,False,False,False,False,372,False,Data/ML,"report_gaia HTML files, BENCH_GAIA_AGENTE sheet",HTML report,executive,autonomous,reactive,medium,org,Aligned-Executive
+S090,True,False,False,False,False,False,False,False,320,False,Code Quality,code,report,executive,reactive,reactive,medium,service,Aligned-Executive
+S091,False,False,False,False,False,False,False,True,344,False,Data/ML,SQL,SQL,assistive,interactive,interactive,low,local,Aligned-Assistive
+S092,False,False,False,False,False,False,False,True,483,False,Infrastructure/Deploy,none,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S093,False,False,False,False,False,False,False,True,345,False,Version Control,none,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S094,True,True,False,False,False,False,False,True,2348,False,Data/ML,data,report,assistive,interactive,interactive,medium,service,Under-declared
+S095,True,False,False,False,False,False,False,False,232,False,Infrastructure/Deploy,log,none,executive,reactive,reactive,medium,service,Aligned-Executive
+S096,False,False,False,False,False,False,False,False,523,False,Data/ML,audit logs,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S097,False,False,False,False,False,False,False,False,291,False,Communication/Collaboration,conversation,document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S098,True,False,False,False,False,False,False,False,357,False,Business Domain,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S099,True,True,False,False,False,False,False,True,1486,False,Observability/Debug,none,code,executive,interactive,interactive,medium,service,Over-declared
+S100,True,False,False,True,False,False,False,False,1649,False,Code Quality,code,code,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S101,False,True,False,False,False,False,False,False,1395,False,Code Quality,PR,report,assistive,reactive,reactive,low,local,Under-declared
+S102,False,False,False,False,False,False,False,False,50,False,Data/ML,none,none,assistive,interactive,interactive,none,local,Aligned-Assistive
+S103,False,True,False,True,False,False,False,True,997,False,Communication/Collaboration,conversation,dashboard,executive,interactive,interactive,medium,service,Over-declared
+S104,False,False,False,False,False,False,False,False,313,False,Observability/Debug,none,summary,executive,autonomous,autonomous,medium,service,Aligned-Executive
+S105,True,True,False,True,False,False,False,True,1800,False,Data/ML,none,"YAML, Python",executive,interactive,interactive,medium,service,Over-declared
+S106,True,False,False,False,False,False,False,True,3232,False,Process/Planning,none,questionnaire,assistive,interactive,interactive,none,local,Aligned-Assistive
+S107,False,True,False,False,False,False,False,True,3933,False,Code Quality,ticket,code,executive,interactive,interactive,medium,service,Over-declared
+S108,False,False,False,False,False,False,False,False,474,False,Documentation,none,specification,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S109,False,False,False,False,False,False,True,True,965,False,Code Quality,code,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S110,False,False,False,False,False,False,False,True,342,False,Documentation,none,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S111,False,False,False,False,False,False,False,True,516,False,Version Control,code,PR,executive,interactive,interactive,medium,service,Over-declared
+S112,True,False,False,False,False,False,False,False,275,False,Code Quality,none,code,assistive,interactive,interactive,none,local,Aligned-Assistive
+S113,True,False,False,False,False,False,False,False,450,False,Communication/Collaboration,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S114,True,False,False,False,False,False,False,False,638,False,Data/ML,SQL,"table, line charts",executive,autonomous,interactive,medium,service,Over-declared
+S115,False,False,False,False,False,False,False,False,258,False,Meta/Agent,text,compressed prompt,assistive,reactive,reactive,none,local,Aligned-Assistive
+S116,False,False,False,False,False,False,False,True,340,False,Code Quality,code,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S117,True,False,False,False,False,False,False,True,2442,False,Observability/Debug,none,Markdown runbook,executive,interactive,interactive,medium,service,Over-declared
+S118,False,True,False,False,True,False,False,True,2247,False,Code Quality,conversation,code,assistive,interactive,interactive,low,local,Under-declared
+S119,True,True,False,False,False,False,False,True,3394,False,Process/Planning,conversation,Jira issues,executive,interactive,interactive,medium,service,Over-declared
+S120,False,False,False,False,False,False,False,True,298,False,Communication/Collaboration,none,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S121,True,True,False,False,False,False,False,False,794,False,Observability/Debug,none,analysis,assistive,reactive,reactive,none,local,Under-declared
+S122,True,False,False,False,False,False,False,True,645,False,Process/Planning,calendar,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S123,False,True,False,True,False,False,False,True,1848,False,Documentation,conversation,summary,executive,interactive,interactive,medium,service,Over-declared
+S124,True,False,False,False,False,False,False,False,615,False,Business Domain,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S125,False,True,False,True,False,False,False,True,3225,False,Infrastructure/Deploy,"YAML, ProtoDAGs, notebooks","DAB resource YAML, DLT notebook structure",assistive,interactive,interactive,medium,service,Under-declared
+S126,False,False,False,False,False,False,False,False,398,False,Process/Planning,ticket,CSV,executive,reactive,reactive,medium,service,Aligned-Executive
+S127,False,False,False,False,False,False,False,False,317,False,Code Quality,none,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S128,True,True,False,False,False,False,False,False,998,False,Data/ML,none,analysis,executive,reactive,reactive,medium,service,Aligned-Executive
+S129,False,False,False,False,False,False,False,False,440,False,Observability/Debug,ticket,report,executive,reactive,reactive,medium,service,Aligned-Executive
+S130,True,True,False,False,False,False,False,True,7551,False,Documentation,"PDFs, decks, docs, HTML","Wiki topic doc, FAQ sheet",assistive,interactive,interactive,low,local,Under-declared
+S131,False,False,False,False,False,False,False,False,559,False,Documentation,YAML,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S132,True,True,False,False,False,False,False,False,682,False,Code Quality,none,analysis,assistive,reactive,reactive,none,local,Under-declared
+S133,False,False,False,False,False,False,False,False,407,False,Infrastructure/Deploy,log,none,executive,reactive,reactive,high,service,Aligned-Executive
+S134,True,False,False,False,False,False,False,False,532,False,Infrastructure/Deploy,conversation,code,assistive,interactive,interactive,low,local,Aligned-Assistive
+S135,False,True,False,False,False,False,False,False,1763,False,Code Quality,code,code,assistive,reactive,reactive,low,local,Under-declared
+S136,True,True,False,False,False,False,False,False,1436,False,Code Quality,code,YAML,executive,autonomous,reactive,medium,service,Aligned-Executive
+S137,False,False,False,False,False,False,False,True,1369,False,Process/Planning,conversation,"Jira tasks, Confluence pages",executive,interactive,interactive,medium,service,Over-declared
+S138,True,False,False,False,False,False,False,False,322,False,Data/ML,SQL,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S139,False,True,False,False,False,False,False,True,3481,False,Documentation,none,YAML,executive,interactive,interactive,medium,service,Over-declared
+S140,True,False,False,False,False,False,False,False,378,False,Data/ML,SQL,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S141,True,False,False,False,False,False,False,True,604,False,Documentation,conversation,Markdown document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S142,False,False,False,False,False,False,False,True,380,False,Documentation,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S143,True,False,False,False,False,False,False,True,341,False,Data/ML,none,code,assistive,interactive,interactive,none,local,Aligned-Assistive
+S144,False,False,False,False,False,False,False,False,385,False,Observability/Debug,log,report,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S145,True,False,False,False,False,False,False,False,321,False,Documentation,none,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S146,True,True,False,False,False,False,False,True,2279,False,Communication/Collaboration,conversation,text,assistive,interactive,interactive,none,local,Under-declared
+S147,False,False,False,False,False,False,False,False,888,False,Documentation,code,HTML document,executive,autonomous,reactive,low,local,Aligned-Executive
+S148,True,True,False,False,False,False,False,True,5155,False,Documentation,conversation,none,assistive,interactive,interactive,none,local,Under-declared
+S149,False,False,False,False,False,False,False,False,366,False,Code Quality,code,code,executive,reactive,reactive,medium,service,Aligned-Executive
+S150,True,False,False,False,True,False,False,True,2518,False,Communication/Collaboration,conversation,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S151,False,True,True,False,False,False,False,True,990,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Under-declared
+S152,False,False,False,False,False,False,False,True,810,False,Infrastructure/Deploy,metrics,GitLab merge request,executive,interactive,interactive,medium,org,Over-declared
+S153,False,False,False,False,False,False,False,False,421,False,Code Quality,code,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S154,False,False,False,False,False,False,False,True,1951,False,Code Quality,code,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S155,False,False,False,False,False,False,False,True,766,False,Process/Planning,conversation,YAML,assistive,interactive,interactive,low,local,Aligned-Assistive
+S156,True,True,True,True,False,False,False,True,1616,False,Documentation,data,Excel,executive,interactive,interactive,medium,local,Over-declared
+S157,False,False,False,False,False,False,False,True,631,False,Code Quality,PR,code,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S158,True,False,False,False,False,False,False,True,385,False,Data/ML,none,SQL,executive,interactive,interactive,medium,service,Over-declared
+S159,False,False,False,False,False,False,False,True,521,False,Process/Planning,conversation,summary scaffold,executive,interactive,interactive,medium,service,Over-declared
+S160,True,False,False,False,False,False,False,False,541,False,Code Quality,code,report,assistive,reactive,reactive,medium,local,Aligned-Assistive
+S161,False,True,False,False,False,False,False,False,3364,False,Process/Planning,conversation,analysis,assistive,reactive,reactive,low,local,Under-declared
+S162,False,False,True,False,False,False,False,True,846,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S163,False,True,False,False,False,False,False,True,1180,False,Observability/Debug,conversation,YAML,executive,interactive,interactive,medium,service,Over-declared
+S164,True,False,False,False,False,False,False,True,1249,False,Data/ML,YAML,Databricks bundle,executive,interactive,interactive,high,org,Over-declared
+S165,False,True,False,False,False,False,False,True,2102,False,Version Control,code,none,assistive,interactive,interactive,none,local,Under-declared
+S166,True,False,False,False,False,False,False,True,377,False,Communication/Collaboration,conversation,code,executive,interactive,interactive,medium,service,Over-declared
+S167,True,False,False,False,False,False,False,False,538,False,Observability/Debug,conversation,report,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S168,False,True,False,False,False,False,False,True,2395,False,Documentation,memory files,"formal specs, ZIP package",executive,interactive,interactive,medium,local,Over-declared
+S169,False,False,False,False,False,False,False,True,1419,False,Documentation,"code, repository metadata",Markdown files,assistive,interactive,interactive,low,local,Aligned-Assistive
+S170,False,False,False,False,False,False,False,True,622,False,Data/ML,SQL,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S171,True,False,False,False,True,False,False,True,1101,False,Communication/Collaboration,conversation,canvas,assistive,interactive,interactive,low,service,Aligned-Assistive
+S172,False,False,False,False,False,False,False,False,700,False,Business Domain,Google Sheets,Markdown analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S173,True,False,False,False,False,False,False,True,878,False,Process/Planning,conversation,HTML report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S174,False,False,False,False,False,False,False,False,311,False,Data/ML,none,data,assistive,reactive,reactive,none,local,Aligned-Assistive
+S175,False,False,False,False,False,False,False,True,728,False,Data/ML,conversation,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S176,False,False,False,False,False,False,False,True,1576,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S177,False,False,False,False,False,False,False,False,339,False,Observability/Debug,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S178,False,False,False,False,False,False,False,True,1389,False,Documentation,code,document,assistive,interactive,interactive,medium,local,Aligned-Assistive
+S179,False,False,False,False,False,False,False,False,330,False,Communication/Collaboration,conversation,comment,assistive,interactive,interactive,none,local,Aligned-Assistive
+S180,False,True,False,False,False,False,False,False,444,False,Version Control,none,JSON,executive,reactive,reactive,medium,service,Aligned-Executive
+S181,False,False,False,False,False,False,False,False,605,False,Observability/Debug,code,Markdown report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S182,False,False,False,False,False,False,False,False,254,False,Code Quality,ticket,analysis,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S183,False,False,False,False,False,False,False,True,1688,False,Data/ML,"CSV, Excel file, Databricks table",ZIP containing billing-format CSV,executive,interactive,interactive,medium,service,Over-declared
+S184,True,False,False,False,False,False,False,False,324,False,Business Domain,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S185,True,False,False,False,False,False,False,True,355,False,Process/Planning,conversation,document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S186,False,False,False,False,False,False,False,True,3534,False,Communication/Collaboration,none,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S187,True,True,False,True,False,False,False,True,4136,False,Data/ML,none,data,executive,interactive,interactive,medium,org,Over-declared
+S188,False,False,False,False,False,False,False,False,352,False,Communication/Collaboration,none,summary,executive,autonomous,autonomous,medium,service,Aligned-Executive
+S189,False,False,True,False,False,False,False,False,448,False,Observability/Debug,log,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S190,False,True,False,False,False,False,False,True,1641,False,Process/Planning,ticket,ticket,executive,interactive,interactive,medium,service,Over-declared
+S191,False,False,False,False,False,False,False,False,310,False,Data/ML,"JSON model, Databricks tables",Markdown document,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S192,False,False,False,False,False,False,False,False,297,False,Process/Planning,ticket,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S193,True,False,False,False,False,False,False,True,254,False,Process/Planning,ticket,ticket,executive,interactive,interactive,medium,service,Over-declared
+S194,True,False,False,False,False,False,False,False,366,False,Observability/Debug,monitor data,code,executive,reactive,reactive,medium,org,Aligned-Executive
+S195,True,False,False,False,False,False,False,False,3518,False,Documentation,conversation,document,assistive,reactive,reactive,low,local,Aligned-Assistive
+S196,False,True,False,False,False,False,False,True,1437,False,Code Quality,code,report,assistive,interactive,interactive,low,local,Under-declared
+S197,False,False,False,False,False,False,False,False,342,False,Code Quality,code,code,executive,autonomous,reactive,low,local,Aligned-Executive
+S198,True,False,False,False,False,False,False,True,2005,False,Communication/Collaboration,conversation,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S199,True,False,False,False,False,False,False,True,2847,False,Code Quality,none,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S200,False,True,False,False,False,False,False,True,3489,False,Documentation,conversation,none,assistive,interactive,interactive,none,local,Under-declared
+S201,False,True,True,False,False,False,False,True,1877,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Under-declared
+S202,False,False,False,False,False,False,False,False,295,False,Observability/Debug,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S203,False,False,False,False,False,False,False,True,1033,False,Documentation,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S204,False,False,False,False,False,False,False,False,505,False,Observability/Debug,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S205,False,False,False,False,False,False,False,False,594,False,Process/Planning,conversation,spec.md,assistive,interactive,interactive,none,local,Aligned-Assistive
+S206,True,False,False,False,False,False,False,True,374,False,Documentation,"conversation, JSON","PPTX, report, HTML",executive,interactive,interactive,low,local,Over-declared
+S207,True,False,False,False,True,False,False,True,1141,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S208,True,False,False,False,False,False,False,False,795,False,Data/ML,code,report,assistive,reactive,reactive,medium,local,Aligned-Assistive
+S209,True,True,False,False,False,False,False,True,2763,False,Documentation,"article, PDF, web page","structured wiki content, daily plans",executive,interactive,interactive,medium,local,Over-declared
+S210,False,False,False,False,False,False,False,True,275,False,Communication/Collaboration,text,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S211,True,False,False,False,False,False,False,True,653,False,Documentation,conversation,PPTX,executive,interactive,interactive,low,local,Over-declared
+S212,True,False,False,False,False,False,False,False,338,False,Business Domain,none,code,executive,autonomous,reactive,medium,org,Aligned-Executive
+S213,False,False,False,False,False,False,False,False,672,False,Code Quality,SKILL.md,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S214,True,False,False,False,False,False,False,True,1109,False,Documentation,none,document,assistive,interactive,interactive,none,local,Aligned-Assistive
+S215,True,False,False,False,False,False,False,False,512,False,Observability/Debug,log,none,assistive,reactive,reactive,none,local,Aligned-Assistive
+S216,False,True,False,False,False,False,False,True,1484,False,Observability/Debug,log,summary,assistive,interactive,interactive,none,local,Under-declared
+S217,False,False,False,False,False,False,False,False,544,False,Data/ML,SQL,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S218,True,False,False,False,False,False,False,True,652,False,Data/ML,data,report,executive,interactive,interactive,medium,service,Over-declared
+S219,False,True,False,False,False,False,False,True,2341,False,Infrastructure/Deploy,none,report,assistive,interactive,interactive,none,local,Under-declared
+S220,True,False,False,False,False,False,False,True,2065,False,Data/ML,none,HTML dashboard,executive,interactive,interactive,medium,service,Over-declared
+S221,True,False,False,False,False,False,False,False,295,False,Data/ML,SQL,HTML report,executive,autonomous,reactive,medium,org,Aligned-Executive
+S222,False,False,False,False,False,False,False,False,343,False,Code Quality,code,report,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S223,False,False,False,False,False,False,False,False,369,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S224,True,False,False,False,False,False,False,True,754,False,Process/Planning,conversation,document,executive,interactive,interactive,medium,service,Over-declared
+S225,True,True,False,False,False,False,False,True,706,False,Data/ML,SQL,formatted table results,executive,interactive,interactive,medium,service,Over-declared
+S226,True,False,False,False,False,False,False,True,926,False,Documentation,conversation,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S227,False,False,True,False,False,False,False,True,3156,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S228,False,False,False,False,False,False,False,False,324,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S229,False,False,False,False,False,False,False,True,758,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S230,False,False,False,False,False,False,False,True,461,False,Process/Planning,conversation,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S231,True,True,False,False,False,False,False,True,1309,False,Documentation,API specifications,JSON files,assistive,interactive,interactive,none,local,Under-declared
+S232,True,False,False,False,False,False,False,True,1720,False,Infrastructure/Deploy,none,YAML,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S233,False,False,False,False,False,False,False,False,312,False,Data/ML,image,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S234,False,False,False,False,False,False,False,False,443,False,Data/ML,none,code,assistive,reactive,reactive,low,local,Aligned-Assistive
+S235,True,False,False,False,False,False,False,False,327,False,Infrastructure/Deploy,none,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S236,False,False,True,False,False,False,False,False,1197,False,Observability/Debug,log,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S237,False,False,False,False,False,False,False,True,527,False,Documentation,code,document,executive,interactive,interactive,medium,service,Over-declared
+S238,False,False,True,True,False,False,False,True,2255,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S239,False,True,False,False,False,False,False,True,1415,False,Infrastructure/Deploy,code,code,executive,interactive,interactive,medium,service,Over-declared
+S240,False,False,False,False,False,False,False,True,4648,False,Documentation,code,HTML document,executive,interactive,interactive,low,local,Over-declared
+S241,False,False,False,False,False,False,False,False,815,False,Process/Planning,ticket,document,executive,autonomous,interactive,medium,org,Over-declared
+S242,False,False,False,False,False,False,False,False,337,False,Communication/Collaboration,none,document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S243,False,False,False,True,False,False,False,True,3047,False,Documentation,"data, comments, files",PPTX presentation,executive,interactive,interactive,medium,service,Over-declared
+S244,False,False,False,True,False,False,False,True,2101,False,Process/Planning,conversation,workflow,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S245,True,False,False,False,False,False,False,False,553,False,Process/Planning,conversation,Markdown table,assistive,interactive,interactive,none,local,Aligned-Assistive
+S246,False,False,False,False,False,False,False,False,307,False,Observability/Debug,none,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S247,False,False,False,False,False,False,False,False,631,False,Communication/Collaboration,none,comment,executive,reactive,reactive,low,service,Aligned-Executive
+S248,False,False,False,False,False,False,False,True,1090,False,Communication/Collaboration,conversation,calendar event,executive,interactive,interactive,medium,service,Over-declared
+S249,True,False,False,False,False,False,False,True,1321,False,Data/ML,YAML,Databricks bundle,executive,interactive,interactive,high,org,Over-declared
+S250,False,True,True,False,False,False,False,True,2458,False,Documentation,SQL,YAML,executive,interactive,interactive,medium,service,Over-declared
+S251,False,False,False,False,False,False,False,False,1216,False,Documentation,conversation,YAML,assistive,interactive,interactive,none,local,Aligned-Assistive
+S252,False,False,False,False,False,False,False,True,1618,False,Infrastructure/Deploy,none,none,assistive,interactive,interactive,none,local,Aligned-Assistive
+S253,False,True,False,False,False,False,False,True,1887,False,Process/Planning,ticket,PR,assistive,interactive,interactive,medium,service,Under-declared
+S254,False,True,False,True,False,False,False,True,2078,False,Documentation,conversation,docx,assistive,interactive,interactive,low,local,Under-declared
+S255,True,True,False,False,True,False,False,True,1529,False,Data/ML,code,code,executive,interactive,interactive,medium,service,Over-declared
+S256,False,False,False,False,False,False,False,True,1840,False,Data/ML,conversation,HTML report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S257,False,False,False,False,False,False,False,False,241,False,Infrastructure/Deploy,none,none,executive,autonomous,reactive,medium,service,Aligned-Executive
+S258,False,False,False,False,False,False,False,True,2011,False,Communication/Collaboration,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S259,False,False,False,False,False,False,False,False,500,False,Process/Planning,none,Kanban board,executive,autonomous,reactive,medium,org,Aligned-Executive
+S260,False,False,False,False,False,False,False,False,375,False,Communication/Collaboration,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S261,True,False,False,False,False,False,False,True,691,False,Data/ML,conversation,code,assistive,interactive,interactive,low,local,Aligned-Assistive
+S262,False,True,False,False,True,False,False,True,3389,False,Observability/Debug,logs,analysis,assistive,interactive,interactive,medium,service,Under-declared
+S263,False,False,True,False,False,False,False,True,2275,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S264,False,False,False,False,False,False,False,True,2251,False,Communication/Collaboration,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S265,False,False,False,False,False,False,False,False,329,False,Code Quality,code,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S266,False,True,True,False,False,False,False,True,2637,False,Data/ML,none,YAML,executive,interactive,interactive,medium,service,Over-declared
+S267,True,True,False,False,False,False,False,True,3653,False,Code Quality,curl command,code,executive,interactive,interactive,medium,local,Over-declared
+S268,False,False,False,False,False,False,False,False,449,False,Data/ML,SQL,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S269,False,False,False,False,False,False,False,True,416,False,Communication/Collaboration,"calendar, documents, Slack, email, transcripts",briefing,assistive,interactive,interactive,none,local,Aligned-Assistive
+S270,False,False,False,False,False,True,False,True,776,True,Data/ML,none,SQL,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S271,False,False,True,False,False,False,False,True,3451,False,Observability/Debug,SQL,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S272,True,False,False,False,False,False,False,False,462,False,Data/ML,SQL,report,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S273,False,False,False,False,False,False,False,True,1739,False,Code Quality,code,code,assistive,interactive,interactive,low,local,Aligned-Assistive
+S274,True,True,False,False,False,False,False,True,1453,False,Documentation,none,JSON,executive,interactive,interactive,low,local,Over-declared
+S275,False,False,False,False,False,False,False,True,377,False,Infrastructure/Deploy,none,none,executive,interactive,interactive,medium,service,Over-declared
+S276,True,True,False,False,False,False,False,True,9670,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Under-declared
+S277,True,False,False,False,False,False,False,True,5332,False,Documentation,"PDF, audio, Figma files, notes, recorded meetings",PRD,executive,interactive,interactive,medium,service,Over-declared
+S278,False,False,False,False,False,False,False,False,324,False,Documentation,none,PPTX,assistive,autonomous,reactive,low,local,Aligned-Assistive
+S279,False,False,False,False,False,False,False,False,327,False,Process/Planning,none,structured workflows,executive,autonomous,reactive,high,org,Aligned-Executive
+S280,False,False,False,False,False,False,False,True,3297,False,Code Quality,code,code,assistive,interactive,interactive,low,local,Aligned-Assistive
+S281,True,False,False,False,True,False,False,False,1378,False,Code Quality,code,report,executive,interactive,interactive,medium,service,Over-declared
+S282,False,False,False,False,False,False,False,True,2501,False,Communication/Collaboration,Google Sheets,"email, report",executive,interactive,interactive,medium,service,Over-declared
+S283,True,False,False,False,False,False,False,False,403,False,Documentation,"calendar agenda, meeting transcripts",candidate file,assistive,reactive,reactive,low,local,Aligned-Assistive
+S284,True,False,False,False,True,False,False,True,1873,False,Communication/Collaboration,conversation,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S285,True,False,False,False,False,False,False,False,384,False,Data/ML,CNPJ or UUID,"HTML viewer, 3S spreadsheets",executive,reactive,reactive,medium,service,Aligned-Executive
+S286,False,True,False,False,False,False,False,True,1677,False,Business Domain,none,action,executive,interactive,interactive,high,org,Over-declared
+S287,False,True,False,False,False,False,False,False,303,False,Infrastructure/Deploy,none,YAML,executive,reactive,reactive,medium,local,Aligned-Executive
+S288,False,True,False,False,False,False,False,True,1134,False,Infrastructure/Deploy,none,YAML,executive,interactive,interactive,medium,org,Over-declared
+S289,True,True,False,False,False,False,False,True,1819,False,Infrastructure/Deploy,none,action,assistive,interactive,interactive,medium,service,Under-declared
+S290,False,True,False,False,False,False,False,True,1820,False,Version Control,code,PR,executive,interactive,interactive,medium,service,Over-declared
+S291,False,True,False,False,False,False,False,True,968,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,none,local,Under-declared
+S292,True,False,False,False,False,False,False,False,206,False,Documentation,none,document,assistive,reactive,reactive,low,local,Aligned-Assistive
+S293,False,False,False,False,False,False,False,False,486,False,Documentation,none,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S294,True,True,False,False,False,False,False,True,3374,False,Communication/Collaboration,conversation,content,assistive,interactive,interactive,none,local,Under-declared
+S295,False,False,False,False,False,False,False,False,266,False,Observability/Debug,none,code,executive,interactive,interactive,medium,service,Over-declared
+S296,False,False,False,False,False,False,False,False,255,False,Documentation,none,HTML,executive,autonomous,reactive,medium,local,Aligned-Executive
+S297,True,True,False,False,False,False,False,False,612,False,Infrastructure/Deploy,code,code,assistive,reactive,reactive,medium,service,Under-declared
+S298,False,False,False,False,False,False,False,False,299,False,Documentation,"PDF, spreadsheet, CSV, presentation",code,executive,autonomous,reactive,medium,service,Aligned-Executive
+S299,False,False,False,False,False,False,False,False,591,False,Process/Planning,"email, Slack messages, Google Sheets","updated spreadsheet, email drafts",executive,reactive,reactive,medium,service,Aligned-Executive
+S300,False,False,False,False,False,False,False,False,378,False,Code Quality,code,code,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S301,False,False,False,False,False,False,False,False,399,False,Documentation,conversation,document,assistive,interactive,interactive,low,external,Aligned-Assistive
+S302,True,True,False,False,False,False,False,True,6853,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Under-declared
+S303,False,False,True,False,False,False,False,True,12099,False,Data/ML,SQL,"table, HTML chart",assistive,interactive,interactive,low,local,Aligned-Assistive
+S304,True,False,False,False,False,False,False,False,513,False,Code Quality,JSON,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S305,False,False,False,False,False,False,False,True,1191,False,Documentation,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S306,False,True,False,True,False,False,False,True,1922,False,Data/ML,none,analysis,assistive,interactive,interactive,none,local,Under-declared
+S307,True,True,False,False,False,False,False,False,1228,False,Observability/Debug,none,analysis,assistive,reactive,reactive,low,service,Under-declared
+S308,True,False,False,False,False,False,False,False,358,False,Observability/Debug,ticket,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S309,False,False,False,False,False,False,False,False,315,False,Business Domain,none,"DOCX, HTML",executive,autonomous,reactive,medium,org,Aligned-Executive
+S310,True,False,False,False,False,False,False,True,3140,False,Infrastructure/Deploy,none,document,executive,interactive,interactive,medium,service,Over-declared
+S311,False,False,False,False,False,False,False,True,991,False,Version Control,none,PR,executive,interactive,interactive,medium,service,Over-declared
+S312,True,False,False,False,False,False,False,False,681,False,Data/ML,none,report,executive,autonomous,interactive,medium,org,Over-declared
+S313,False,False,False,False,False,False,False,False,233,False,Infrastructure/Deploy,none,report,assistive,reactive,reactive,medium,service,Aligned-Assistive
+S314,False,False,False,False,False,False,False,False,629,False,Process/Planning,PDF,summary,assistive,reactive,reactive,low,local,Aligned-Assistive
+S315,False,False,False,False,False,False,False,False,1622,False,Process/Planning,none,Markdown,executive,autonomous,reactive,medium,service,Aligned-Executive
+S316,True,False,False,False,False,False,False,False,579,False,Documentation,none,report,assistive,autonomous,reactive,low,local,Aligned-Assistive
+S317,False,False,False,False,False,False,False,False,405,False,Data/ML,none,HTML report,executive,autonomous,reactive,medium,org,Aligned-Executive
+S318,False,False,True,False,False,False,False,True,1016,False,Data/ML,conversation,SQL,assistive,interactive,interactive,none,local,Aligned-Assistive
+S319,False,False,False,False,False,False,False,False,395,False,Documentation,briefing,interactive HTML presentation,executive,autonomous,interactive,low,local,Over-declared
+S320,True,False,False,False,False,False,False,False,324,False,Documentation,conversation,XML,executive,reactive,reactive,low,local,Aligned-Executive
+S321,False,False,False,False,False,False,False,True,2050,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S322,True,False,False,False,True,False,False,False,1375,False,Business Domain,none,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S323,False,False,False,False,False,False,False,False,270,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S324,False,False,False,False,False,False,False,True,1816,False,Documentation,none,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S325,True,True,False,False,False,False,False,True,5324,False,Infrastructure/Deploy,PR,none,executive,interactive,interactive,high,org,Over-declared
+S326,True,False,False,False,False,False,False,True,600,False,Data/ML,conversation,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S327,False,False,False,False,False,False,False,True,3769,False,Communication/Collaboration,conversation,template,assistive,interactive,interactive,none,local,Aligned-Assistive
+S328,False,False,False,False,False,False,False,False,382,False,Process/Planning,none,none,assistive,reactive,reactive,none,local,Aligned-Assistive
+S329,False,True,False,False,False,False,False,True,1538,False,Infrastructure/Deploy,none,none,assistive,interactive,interactive,none,local,Under-declared
+S330,True,False,False,False,False,False,False,True,905,False,Data/ML,metadata,markdown,assistive,interactive,interactive,low,local,Aligned-Assistive
+S331,False,False,True,False,False,False,False,False,3091,False,Data/ML,SQL,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S332,True,False,False,False,False,False,False,False,289,False,Version Control,none,none,executive,reactive,reactive,medium,service,Aligned-Executive
+S333,False,False,False,False,False,False,False,False,1361,False,Communication/Collaboration,none,none,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S334,False,False,False,False,False,False,False,False,37,False,Documentation,none,PDF,executive,autonomous,reactive,low,local,Aligned-Executive
+S335,False,False,False,False,False,False,False,True,513,False,Documentation,PDF,text/Markdown,assistive,interactive,interactive,none,local,Aligned-Assistive
+S336,False,False,False,False,False,False,False,False,392,False,Documentation,none,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S337,False,False,False,False,False,False,False,False,310,False,Communication/Collaboration,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S338,False,True,False,False,False,False,False,False,2048,False,Meta/Agent,none,documentation,assistive,autonomous,reactive,none,local,Under-declared
+S339,False,False,False,False,False,False,False,True,1250,False,Documentation,conversation,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S340,False,False,True,False,False,False,False,True,3844,False,Observability/Debug,log,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S341,False,False,False,False,False,False,False,False,616,False,Communication/Collaboration,ticket,summary,assistive,interactive,interactive,low,local,Aligned-Assistive
+S342,False,False,False,False,False,False,False,False,358,False,Observability/Debug,log,none,assistive,reactive,reactive,low,local,Aligned-Assistive
+S343,False,False,True,False,False,False,False,True,2235,False,Data/ML,conversation,documentation,assistive,interactive,interactive,low,local,Aligned-Assistive
+S344,True,False,False,False,False,False,False,False,301,False,Code Quality,code,code,executive,autonomous,reactive,medium,service,Aligned-Executive
+S345,False,False,False,False,False,False,False,True,2643,False,Communication/Collaboration,conversation,prompt,assistive,interactive,interactive,none,local,Aligned-Assistive
+S346,False,False,False,False,False,False,False,True,2136,False,Process/Planning,conversation,document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S347,False,False,False,False,False,False,False,False,1126,False,Process/Planning,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S348,True,False,False,False,False,False,False,True,505,False,Documentation,conversation,draft documentation,assistive,interactive,interactive,low,service,Aligned-Assistive
+S349,True,True,False,True,False,False,False,True,3641,False,Process/Planning,conversation,report,assistive,interactive,interactive,low,local,Under-declared
+S350,False,False,False,False,False,False,False,True,1128,False,Code Quality,code,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S351,True,False,False,False,False,False,False,True,687,False,Infrastructure/Deploy,none,action,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S352,False,True,False,False,False,False,False,True,3450,False,Process/Planning,ticket,none,executive,interactive,interactive,medium,service,Over-declared
+S353,False,True,False,False,False,False,False,True,847,False,Observability/Debug,log,summary,assistive,interactive,interactive,low,local,Under-declared
+S354,True,False,False,False,False,False,False,False,495,False,Infrastructure/Deploy,SQL,code,executive,interactive,interactive,medium,org,Over-declared
+S355,False,True,False,False,False,False,False,False,1117,False,Observability/Debug,code,report,assistive,reactive,reactive,low,local,Under-declared
+S356,True,True,False,False,False,False,False,True,2194,False,Documentation,"text, PDFs, reference decks",PPTX,executive,interactive,interactive,low,local,Over-declared
+S357,False,False,False,False,False,False,False,False,371,False,Documentation,none,document,executive,reactive,reactive,medium,service,Aligned-Executive
+S358,True,True,False,False,False,False,False,False,1360,False,Data/ML,YAML,analysis,assistive,reactive,reactive,low,local,Under-declared
+S359,False,False,False,False,False,False,False,False,412,False,Data/ML,none,none,executive,autonomous,reactive,high,org,Aligned-Executive
+S360,False,False,True,False,False,False,False,True,2137,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S361,False,False,False,False,False,False,False,True,2661,False,Process/Planning,"PRD, SDD",Jira stories,executive,interactive,interactive,medium,service,Over-declared
+S362,False,False,False,False,False,False,False,True,573,False,Code Quality,MR,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S363,False,False,False,False,False,False,False,False,339,False,Documentation,none,code,executive,autonomous,reactive,medium,local,Aligned-Executive
+S364,False,False,False,False,False,False,False,True,554,False,Documentation,JSON or CSV,Google Slides,executive,interactive,interactive,low,local,Over-declared
+S365,False,True,False,False,False,False,False,True,988,False,Version Control,code,comment,assistive,interactive,interactive,low,local,Under-declared
+S366,False,False,False,False,False,False,False,True,3222,False,Business Domain,none,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S367,True,False,False,False,False,False,False,False,695,False,Data/ML,SQL,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S368,True,False,False,False,False,False,False,False,375,False,Documentation,code,documentation,executive,autonomous,interactive,medium,service,Over-declared
+S369,False,False,False,False,False,False,False,True,1535,False,Communication/Collaboration,text,revised text,assistive,interactive,interactive,none,local,Aligned-Assistive
+S370,False,True,True,False,False,False,False,True,3615,False,Data/ML,none,.lvdash.json,executive,interactive,interactive,medium,service,Over-declared
+S371,True,False,False,False,False,False,False,False,323,False,Process/Planning,none,project skeleton,executive,autonomous,interactive,medium,service,Over-declared
+S372,False,True,False,False,False,False,False,True,1551,False,Infrastructure/Deploy,none,Slack notifications,executive,interactive,interactive,medium,service,Over-declared
+S373,False,False,False,False,False,False,False,True,1300,False,Infrastructure/Deploy,ticket,analysis,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S374,False,False,False,False,False,False,False,True,299,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S375,True,False,False,False,False,False,False,False,388,False,Infrastructure/Deploy,values.yaml,git branch,executive,reactive,reactive,medium,service,Aligned-Executive
+S376,False,True,False,False,False,False,False,False,681,False,Infrastructure/Deploy,none,config,executive,autonomous,reactive,medium,service,Aligned-Executive
+S377,True,False,False,False,False,False,False,False,552,False,Data/ML,SQL,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S378,True,True,True,False,False,False,False,False,5213,False,Data/ML,UUID,HTML scorecard,executive,autonomous,reactive,medium,service,Aligned-Executive
+S379,False,False,True,True,False,False,False,True,2011,False,Data/ML,SQL,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S380,False,False,False,False,False,False,False,True,355,False,Data/ML,SQL,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S381,True,False,False,False,False,False,False,False,333,False,Data/ML,none,HTML report,executive,autonomous,reactive,medium,org,Aligned-Executive
+S382,True,False,False,False,False,False,False,False,430,False,Documentation,none,Markdown documentation,assistive,interactive,interactive,low,local,Aligned-Assistive
+S383,True,True,False,False,False,False,False,True,2006,False,Observability/Debug,code,analysis,assistive,interactive,interactive,low,local,Under-declared
+S384,False,False,True,False,False,False,False,True,2859,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S385,False,False,False,False,False,False,False,True,2008,False,Code Quality,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S386,False,False,False,False,False,False,False,False,360,False,Process/Planning,conversation,task suggestion,assistive,reactive,reactive,low,service,Aligned-Assistive
+S387,False,False,False,False,False,False,False,False,838,False,Data/ML,ticket,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S388,True,False,False,False,False,False,False,True,791,False,Documentation,"dataset.json, analysis.json",HTML report,executive,interactive,interactive,low,local,Over-declared
+S389,True,False,False,False,False,False,False,False,305,False,Business Domain,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S390,False,False,False,False,False,False,False,True,547,False,Process/Planning,"text, images, audio, Jira issue",document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S391,True,False,False,False,False,False,False,False,1376,False,Observability/Debug,none,document,assistive,reactive,reactive,low,local,Aligned-Assistive
+S392,False,True,False,False,False,False,False,False,1070,False,Code Quality,code,report,assistive,reactive,reactive,low,local,Under-declared
+S393,False,False,False,False,False,False,False,True,3010,False,Version Control,ticket,PR,executive,interactive,interactive,medium,org,Over-declared
+S394,False,False,False,False,False,False,False,True,3594,False,Observability/Debug,log,analysis,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S395,True,False,False,False,False,False,False,False,365,False,Data/ML,table,rules,assistive,interactive,interactive,low,local,Aligned-Assistive
+S396,False,False,False,False,False,False,False,True,672,False,Infrastructure/Deploy,video files,edited video files,executive,interactive,interactive,medium,local,Over-declared
+S397,False,True,False,False,False,False,False,True,3911,False,Meta/Agent,none,code,executive,interactive,interactive,medium,local,Over-declared
+S398,False,False,False,False,False,False,False,False,311,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,low,service,Aligned-Assistive
+S399,True,False,False,False,False,False,False,True,2054,False,Documentation,conversation,PPTX,executive,interactive,interactive,medium,local,Over-declared
+S400,False,False,False,False,False,False,False,True,828,False,Infrastructure/Deploy,ticket,"checklist, commands, MR drafts, messages",assistive,interactive,interactive,medium,service,Aligned-Assistive
+S401,False,False,False,False,False,False,False,False,363,False,Communication/Collaboration,"Google Slides report, influencer list","summary, FCAs, ranked content, ideas",assistive,interactive,interactive,medium,service,Aligned-Assistive
+S402,False,False,False,False,False,False,False,True,2191,False,Code Quality,"code, analysis, data",analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S403,True,False,True,False,False,False,False,True,4577,False,Data/ML,SQL,data,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S404,False,False,False,False,False,False,False,False,315,False,Communication/Collaboration,conversation,document,assistive,reactive,reactive,low,local,Aligned-Assistive
+S405,True,True,False,False,True,False,False,True,6383,False,Infrastructure/Deploy,code,code,executive,interactive,interactive,medium,org,Over-declared
+S406,True,False,False,False,False,False,False,False,344,False,Data/ML,"expression, target attribute name",Markdown validation report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S407,False,False,False,False,False,False,False,True,1318,False,Process/Planning,conversation,report,assistive,interactive,interactive,none,local,Aligned-Assistive
+S408,False,False,False,False,False,False,False,False,438,False,Data/ML,none,report,executive,reactive,reactive,medium,org,Aligned-Executive
+S409,False,True,False,False,False,False,False,True,1559,False,Infrastructure/Deploy,none,JSON/JSONL file,executive,interactive,interactive,low,local,Over-declared
+S410,True,False,False,False,False,False,False,False,240,False,Documentation,none,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S411,True,False,False,False,False,False,False,False,361,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S412,False,False,False,False,False,False,False,False,357,False,Process/Planning,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S413,True,False,False,False,False,False,False,False,346,False,Documentation,"text, screenshots, Google Docs, Figma links, web pages","analysis, revised content, variations",assistive,reactive,reactive,low,local,Aligned-Assistive
+S414,False,False,False,False,False,False,False,False,21,False,Infrastructure/Deploy,none,code,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S415,False,False,False,False,False,False,False,False,884,False,Business Domain,conversation,none,assistive,reactive,reactive,none,local,Aligned-Assistive
+S416,False,True,False,False,False,False,False,True,2048,False,Version Control,none,MR,executive,interactive,interactive,medium,service,Over-declared
+S417,True,True,False,False,False,False,False,True,1539,False,Documentation,video,"SRT subtitles, highlight video",executive,interactive,interactive,medium,local,Over-declared
+S418,False,False,False,False,False,False,False,False,549,False,Meta/Agent,none,data,assistive,reactive,reactive,none,local,Aligned-Assistive
+S419,True,False,False,True,False,False,False,False,1485,False,Infrastructure/Deploy,blueprint,service configuration,executive,interactive,interactive,high,org,Over-declared
+S420,True,True,False,False,False,False,False,False,1841,False,Observability/Debug,log,analysis,assistive,reactive,reactive,medium,service,Under-declared
+S421,True,False,False,False,False,False,False,False,411,False,Data/ML,none,YAML,executive,autonomous,reactive,medium,service,Aligned-Executive
+S422,False,False,False,False,False,False,False,True,1194,False,Process/Planning,none,code,assistive,interactive,interactive,none,local,Aligned-Assistive
+S423,True,False,True,False,False,False,False,True,2248,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S424,False,False,False,False,False,False,False,False,303,False,Meta/Agent,code,analysis,assistive,reactive,reactive,low,local,Aligned-Assistive
+S425,False,False,False,False,False,False,False,True,483,False,Communication/Collaboration,conversation,"my_persona, my_voice",assistive,interactive,interactive,none,local,Aligned-Assistive
+S426,False,False,False,False,False,False,False,False,613,False,Infrastructure/Deploy,HTML file,Google Apps Script Web App URL,executive,interactive,interactive,medium,org,Over-declared
+S427,False,True,False,False,False,False,False,True,1614,False,Observability/Debug,none,summary,assistive,interactive,interactive,medium,service,Under-declared
+S428,True,False,False,False,False,False,False,True,433,False,Data/ML,conversation,code,executive,interactive,interactive,medium,service,Over-declared
+S429,False,False,False,False,False,False,False,False,412,False,Data/ML,SQL,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S430,False,False,False,False,False,False,False,False,371,False,Communication/Collaboration,media files,optimized media files,executive,reactive,reactive,low,local,Aligned-Executive
+S431,False,True,False,False,False,False,False,True,2180,False,Version Control,ticket,issue,executive,interactive,interactive,medium,service,Over-declared
+S432,False,False,False,False,False,False,False,False,299,False,Documentation,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S433,False,False,False,False,False,False,False,False,516,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S434,False,False,False,False,False,False,False,False,338,False,Data/ML,conversation,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S435,False,False,False,False,False,False,False,False,428,False,Documentation,"Mermaid source, ASCII sketch, natural-language diagram request","PNG file, Mermaid source",executive,reactive,reactive,low,local,Aligned-Executive
+S436,False,False,True,False,False,False,False,True,4311,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S437,True,False,False,False,False,False,False,True,2641,False,Process/Planning,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S438,False,False,True,False,False,False,False,True,1936,False,Data/ML,SQL,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S439,True,True,False,False,False,False,False,True,3431,False,Code Quality,PR,analysis,assistive,interactive,interactive,medium,service,Under-declared
+S440,False,False,False,False,False,False,False,True,283,False,Process/Planning,conversation,summary,assistive,interactive,interactive,none,local,Aligned-Assistive
+S441,True,False,False,False,False,False,False,False,824,False,Data/ML,ticket,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S442,True,False,False,False,False,False,False,False,340,False,Documentation,text,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S443,False,True,True,False,False,False,False,True,4546,False,Data/ML,"DataFrame, CSV",HTML report,assistive,interactive,interactive,medium,service,Under-declared
+S444,True,False,False,False,False,False,False,True,461,False,Data/ML,SQL,report,executive,interactive,interactive,medium,service,Over-declared
+S445,False,False,False,False,False,False,False,True,1717,False,Observability/Debug,logs,report,assistive,interactive,interactive,medium,service,Aligned-Assistive
+S446,False,False,False,False,False,False,False,True,3452,False,Documentation,Figma design,Merge Request,executive,interactive,interactive,medium,service,Over-declared
+S447,False,False,False,False,False,False,False,False,710,False,Observability/Debug,"SQL, Google Sheet",Slack alert,executive,autonomous,autonomous,medium,service,Aligned-Executive
+S448,False,False,False,False,False,False,False,False,315,False,Business Domain,conversation,report,assistive,interactive,interactive,low,local,Aligned-Assistive
+S449,True,False,False,False,False,False,False,True,1048,False,Meta/Agent,conversation,analysis,assistive,interactive,interactive,none,local,Aligned-Assistive
+S450,False,False,False,False,False,False,False,False,571,False,Infrastructure/Deploy,none,YAML,executive,autonomous,reactive,high,org,Aligned-Executive
+S451,False,False,False,False,False,False,False,False,244,False,Documentation,data,presentation,executive,autonomous,reactive,medium,org,Aligned-Executive
+S452,True,False,False,False,False,False,False,False,582,False,Version Control,none,code,executive,autonomous,reactive,low,local,Aligned-Executive
+S453,False,False,False,False,False,False,False,False,682,False,Infrastructure/Deploy,code,branch,executive,reactive,reactive,medium,service,Aligned-Executive
+S454,False,False,False,False,False,False,False,False,718,False,Data/ML,none,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S455,False,False,False,False,False,True,False,False,262,True,Documentation,image,icon,executive,autonomous,reactive,low,local,Aligned-Executive
+S456,False,False,False,False,False,False,False,True,827,False,Communication/Collaboration,conversation,comment,assistive,interactive,interactive,low,local,Aligned-Assistive
+S457,False,False,False,False,False,False,False,True,659,False,Infrastructure/Deploy,none,YAML,executive,interactive,interactive,medium,service,Over-declared
+S458,False,True,False,False,False,False,False,True,1231,False,Data/ML,conversation,SQL,executive,interactive,interactive,medium,service,Over-declared
+S459,False,False,False,False,False,False,False,True,977,False,Documentation,conversation,HTML document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S460,False,True,False,False,False,False,False,False,1937,False,Code Quality,code,analysis,assistive,reactive,reactive,low,local,Under-declared
+S461,False,False,False,False,False,False,False,True,395,False,Process/Planning,none,none,assistive,interactive,interactive,none,local,Aligned-Assistive
+S462,True,True,False,False,False,False,False,True,1623,False,Documentation,conversation,report,assistive,interactive,interactive,low,local,Under-declared
+S463,False,False,False,False,False,False,False,False,289,False,Documentation,conversation,structured OCAREO spec,executive,reactive,reactive,medium,service,Aligned-Executive
+S464,False,False,False,False,False,False,False,True,1687,False,Communication/Collaboration,transcriptions,summary,assistive,interactive,interactive,low,service,Aligned-Assistive
+S465,False,False,False,False,False,False,False,False,408,False,Communication/Collaboration,none,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S466,False,False,False,False,False,False,False,False,572,False,Communication/Collaboration,email,report,executive,reactive,reactive,medium,service,Aligned-Executive
+S467,True,False,False,False,False,False,False,False,1991,False,Data/ML,code,Markdown report + HTML dossier,executive,reactive,reactive,medium,org,Aligned-Executive
+S468,False,False,False,False,False,False,False,True,1531,False,Communication/Collaboration,conversation,summary,executive,interactive,interactive,medium,service,Over-declared
+S469,False,False,False,False,False,False,False,False,196,False,Observability/Debug,none,report,assistive,reactive,reactive,none,local,Aligned-Assistive
+S470,False,False,False,False,False,False,False,True,1845,False,Infrastructure/Deploy,none,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S471,True,False,False,False,False,False,False,False,391,False,Documentation,none,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S472,True,False,False,False,False,False,False,False,498,False,Communication/Collaboration,conversation,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S473,False,True,False,False,False,False,False,False,1237,False,Data/ML,none,credentials,executive,autonomous,reactive,medium,service,Aligned-Executive
+S474,False,False,False,False,False,False,False,False,358,False,Communication/Collaboration,none,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S475,False,True,False,False,False,False,False,True,1213,False,Version Control,none,PR,executive,interactive,interactive,medium,service,Over-declared
+S476,True,False,False,False,False,False,False,False,333,False,Data/ML,none,document,assistive,reactive,reactive,none,local,Aligned-Assistive
+S477,False,False,False,False,False,False,False,False,434,False,Documentation,none,document,assistive,reactive,reactive,low,local,Aligned-Assistive
+S478,False,True,False,False,False,False,False,True,1202,False,Code Quality,code,report,assistive,interactive,interactive,medium,service,Under-declared
+S479,False,False,False,False,False,False,False,False,1673,False,Process/Planning,none,analysis,assistive,autonomous,reactive,none,local,Aligned-Assistive
+S480,True,True,False,False,False,False,False,True,875,False,Code Quality,code,report,assistive,interactive,interactive,low,local,Under-declared
+S481,False,False,False,False,False,False,False,False,732,False,Data/ML,SQL,SQL,assistive,reactive,reactive,none,local,Aligned-Assistive
+S482,False,False,False,False,False,False,False,False,415,False,Data/ML,SQL,report,assistive,reactive,reactive,low,local,Aligned-Assistive
+S483,False,False,False,False,False,False,False,False,365,False,Communication/Collaboration,conversation,summary,assistive,reactive,reactive,none,local,Aligned-Assistive
+S484,True,False,False,False,False,False,False,False,441,False,Data/ML,none,HTML dashboard,executive,reactive,reactive,medium,service,Aligned-Executive
+S485,True,False,False,False,False,False,False,True,2128,False,Process/Planning,conversation,cards,executive,interactive,interactive,medium,service,Over-declared
+S486,False,False,False,False,False,False,False,False,486,False,Data/ML,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S487,False,True,False,True,False,False,False,True,3494,False,Data/ML,none,dashboard,assistive,interactive,interactive,low,local,Under-declared
+S488,True,False,False,False,False,False,False,False,313,False,Data/ML,ticket,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S489,False,False,False,False,False,False,False,False,1575,False,Observability/Debug,none,analysis,assistive,reactive,reactive,none,local,Aligned-Assistive
+S490,True,True,False,False,False,False,False,False,1128,False,Communication/Collaboration,conversation,summary,assistive,interactive,interactive,low,local,Under-declared
+S491,False,True,False,True,False,False,False,True,752,False,Data/ML,none,analysis,assistive,interactive,interactive,none,local,Under-declared
+S492,True,False,False,False,False,False,False,False,395,False,Documentation,none,report,executive,interactive,interactive,medium,service,Over-declared
+S493,True,False,False,False,False,False,False,True,2118,False,Documentation,"data, analysis, graphs",presentation slides,assistive,interactive,interactive,low,local,Aligned-Assistive
+S494,False,False,False,False,False,False,False,False,373,False,Communication/Collaboration,conversation,comment,executive,autonomous,autonomous,medium,service,Aligned-Executive
+S495,False,True,False,True,False,False,False,True,1301,False,Infrastructure/Deploy,none,zip backup,executive,interactive,interactive,medium,service,Over-declared
+S496,False,True,False,False,False,False,False,False,2044,False,Code Quality,code,YAML,assistive,reactive,reactive,medium,service,Under-declared
+S497,False,False,True,False,False,False,False,True,2165,False,Data/ML,SQL,analysis,assistive,interactive,interactive,low,local,Aligned-Assistive
+S498,False,True,False,False,False,False,False,True,1911,False,Infrastructure/Deploy,none,report,assistive,interactive,interactive,low,local,Under-declared
+S499,False,False,False,False,False,False,False,True,480,False,Process/Planning,video,video,executive,interactive,interactive,low,local,Over-declared
+S500,True,False,False,False,False,False,False,False,359,False,Code Quality,code,code,executive,autonomous,reactive,medium,service,Aligned-Executive
+S501,False,False,False,False,False,False,False,True,4102,False,Process/Planning,conversation,scope document,assistive,interactive,interactive,low,local,Aligned-Assistive
+S502,True,False,True,True,False,False,False,False,4012,False,Data/ML,SQL,code,executive,autonomous,reactive,medium,service,Aligned-Executive

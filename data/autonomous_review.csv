@@ -1,0 +1,54 @@
+id,delegation_intent,llm_label,reviewed_label,rationale
+S007,assistive,autonomous,autonomous,automatic mode scans Slack every 2 hours and sends a DM
+S025,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S026,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S031,executive,autonomous,interactive,instructs the agent to ask clarifying questions when details are missing
+S075,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S089,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S100,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S104,executive,autonomous,autonomous,recurring weekly radar of competitor events posted to Slack
+S108,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S114,executive,autonomous,interactive,assistant must clarify the funnel granularity
+S136,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S147,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S188,executive,autonomous,autonomous,posts a consolidated daily summary to Slack
+S191,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S197,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S212,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S221,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S241,executive,autonomous,interactive,"runs interactively, stopping for confirmation after each phase"
+S257,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S259,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S278,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S279,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S296,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S298,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S309,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S312,executive,autonomous,interactive,agent must clarify KPI and scope before querying
+S315,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S316,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S317,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S319,executive,autonomous,interactive,"topic, audience and message must be provided or asked for"
+S333,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S334,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S338,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S344,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S359,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S363,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S368,executive,autonomous,interactive,asks for confluence_parent_id on first invocation
+S371,executive,autonomous,interactive,asks role-adapted setup questions
+S376,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S378,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S381,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S414,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S421,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S447,executive,autonomous,autonomous,daily KPI alert executed at a scheduled run time
+S450,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S451,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S452,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S455,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S473,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S479,assistive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S494,executive,autonomous,autonomous,monitors a Slack channel and closes Jira tickets when a reaction appears (event-triggered)
+S500,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
+S502,executive,autonomous,reactive,user-invoked; runs to completion without asking for input
